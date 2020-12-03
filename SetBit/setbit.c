@@ -9,8 +9,10 @@ void main(void) {
     
     x = 0xAB; //1010_1011
 
-    y = SetBit(x,2);
+    y = SetBit(x,6);
+    y = SetBit(y,4);
 
+    printf("a entrada eh: %x \n", x);
     printf("o resultado eh: %x \n", y);
 }
 
